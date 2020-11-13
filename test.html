@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #opacity {height: 70vh;
+                  width: 100%;
+                  background-image: url(../test/benz.jpg);
+                  background-position: center;
+                  background-size: cover;
+                  /* transition: 2s linear; */
+        }
+        button {border-radius: 100%;
+                height: 10px;
+                width: 10px;
+        }
+
+
+        .fifth {margin-top: 50px;
+}
+.fifth h2 {font-size: 24px;
+}
+.fifth .slider_section figure .slide {display: flex;
+                                      flex-wrap: wrap;
+                                      justify-content: center;
+}
+.fifth .slide .part img {width: 250px;
+                         margin: 5px 10px 5px 0;
+}
+.fifth .slide .part h5 {font-size: 12px; 
+                        color: black;
+}
+.fifth .slider_section {overflow: hidden;
+                        width: 100%;
+                        height: fit-content;
+}
+.fifth .slider_section figure {position: relative;
+                               width: 300%;
+                               margin: 0;
+                               left: 0;
+                               transition: 3s;
+                               animation: slide1 15s infinite;
+}
+.fifth .slider_section figure .slide {width: 33.3%;
+                                      float: left;
+}
+/* slider  keyframe of the fifth first section */
+/* @keyframes slide1 {
+0% {
+margin-left: 0%;
+}
+20% {
+margin-left: 0%;
+}
+35% {
+margin-left: 0%;
+}
+40% {
+margin-left: -100%;
+}
+60% {
+margin-left: -100%;
+}
+75% {
+margin-left: -100%;
+}
+80% {
+margin-left: -200%;
+}
+95% {
+margin-left: -200%;
+}
+100% {
+margin-left: -200%;
+}
+} */
+
+    </style>
+</head>
+<body>
+    
+
+    <div id="opacity">
+        
+    </div>
+
+    <div class="btns">
+        <button class="btn" id="btn-0"></button>
+        <button class="btn" id="btn-1"></button>
+        <button class="btn" id="btn-2"></button>
+        <button class="btn" id="btn-3"></button>
+    </div>
+
+    <section>
+        <div class="container fifth" style="width: 70%;">
+            <h2>Featured Recipes</h2>
+           <div class="slider_section">
+               <figure>
+                    <div class="slide slider_one">
+                            <div class="part part_one">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                            <div class="part part_two">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                            <div class="part part_three">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                            <div class="part part_four">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href=""><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                            <div class="part part_five">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                            <div class="part part_six">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe</h5></a>
+                            </div>
+                        </div>
+                        <div class="slide slider_two">
+                            <div class="part part_one">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                            <div class="part part_two">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                            <div class="part part_three">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                            <div class="part part_four">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                            <div class="part part_five">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                            <div class="part part_six">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe2</h5></a>
+                            </div>
+                        </div>
+                        <div class="slide slider_three">
+                            <div class="part part_one">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                            <div class="part part_two">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                            <div class="part part_three">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                            <div class="part part_four">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                            <div class="part part_five">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                            <div class="part part_six">
+                                <img src="../test/beta.jpg" alt="">
+                                <a href="#"><h5>Garlic Steak Recipe3</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+        </div>
+    </section>
+
+    <script>
+        // var opacity = document.getElementById('opacity')
+        
+        //     var x = 0
+        //     arr = ['url(../test/beta.jpg)', 'url(../test/bike.jpg)', 'url(../test/passenger.jpg)', 'url(../test/benz.jpg)']
+            
+        //     function changeImg() {
+        //         opacity.style.backgroundImage = arr[x]
+            
+        //     if (x < arr.length - 1) {
+        //         x++
+        //     } else {
+        //         x = 0;
+        //     }
+
+        //     var btn0 = document.getElementById('btn-0')
+        //     var btn1 = document.getElementById('btn-1')
+        //     var btn2 = document.getElementById('btn-2')
+        //     var btn3 = document.getElementById('btn-3')
+
+        //     btn0.addEventListener('click', () => {
+        //         x = 0
+        //     })
+        //     btn1.addEventListener('click', () => {
+        //         x = 1
+        //     })
+        //     btn2.addEventListener('click', () => {
+        //         x = 2
+        //     })
+        //     btn3.addEventListener('click', () => {
+        //         x = 3
+        //     })
+
+        //     setTimeout('changeImg()', 3000)
+        //     }
+
+            // window.onload = changeImg
+
+            var nana = document.querySelector('.fifth .slider_section figure')
+            y = 0
+            function changeSection() {
+                nana.style.marginLeft = y + '%'
+            }
+            
+            // if (y > -200) {
+            //     y -= 100
+            // } else {
+            //     y = 0;
+            // }
+
+            var btn0 = document.getElementById('btn-0')
+            var btn1 = document.getElementById('btn-1')
+            // var btn2 = document.getElementById('btn-2')
+            // var btn3 = document.getElementById('btn-3')
+
+            btn0.addEventListener('click', () => {
+                if (y < 0 && y >= -200) {
+                y += 100
+                changeSection()
+                }
+            })
+            btn1.addEventListener('click', () => {
+                if (y <= 0 && y > -200) {
+                y -= 100
+                changeSection()
+                }
+            })
+            // btn2.addEventListener('click', () => {
+            //     y = -200
+            // })
+            // btn3.addEventListener('click', () => {
+            //     x = 3
+            // })
+
+            // setTimeout('changeSection()', 3000)
+            // }
+
+            window.onload = changeSection
+
+            
+    </script>
+
+</body>
+</html>
